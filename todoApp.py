@@ -19,7 +19,7 @@ def submit():
 
     todo_list.append(content)
     textArea.insert('end -1 chars', str(counter)+". "+content)
-    counter += 1-
+    counter += 1
     task.delete(0, END)
 
 
